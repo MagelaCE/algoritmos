@@ -1,4 +1,4 @@
-/* Programa de números mágicos #1. */
+/* Programa de números mágicos #2. */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,4 +13,5 @@ void main(void)
     scanf("%d", &guess);
 
     if (guess == magic) printf("** Certo **");
+    else printf("Errado");
 }
