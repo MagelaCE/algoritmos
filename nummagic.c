@@ -16,7 +16,6 @@ void main(void)
         printf("** Certo **");
         printf(" %d é número mágico\n", magic);
     }
-    else if (guess > magic) 
-        printf("Errado, muito alto\n");
-    else printf("Errado, muito baixo\n");
+    else 
+        guess > magic ? printf("Alto") :printf("Baixo");
 }
