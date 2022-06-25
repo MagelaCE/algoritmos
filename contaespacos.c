@@ -7,7 +7,7 @@ void main(void)
     int space;
 
     printf("Digite uma string: ");
-    fgets(s, sizeof(s), stdin);
+    gets(s);
     str = s;
 
     for (space=0; *str; str++) {
